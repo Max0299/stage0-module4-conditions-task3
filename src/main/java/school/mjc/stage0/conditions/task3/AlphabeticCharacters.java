@@ -9,10 +9,12 @@ public class AlphabeticCharacters {
         for(char c :vowels){
             if(c == character){
                 System.out.println("Vowel");
+                break;
             }else {
                 for(char b : consonant){
                     if(b == character){
                         System.out.println("Consonant");
+                        break;
                     }
                     else {
                         System.out.println("wrong alphabet");
